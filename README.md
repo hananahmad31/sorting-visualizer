@@ -1,6 +1,6 @@
 # Sorting Algorithm Visualizer
 
-A interactive web application that visualizes various sorting algorithms in real-time, built with React, Tailwind CSS, and Vite.
+An interactive web application that visualizes various sorting algorithms in real-time, built with React, Tailwind CSS, and Vite.
 
 ## 🚀 Features
 
@@ -34,48 +34,55 @@ Currently featuring **Selection Sort** with detailed complexity analysis:
 
 *More algorithms coming soon!*
 
-## 🎮 How to Use
+## 🧪 How to Use the Visualizer
 
-1. **Generate Array**: Click "Generate New Array" to create a random dataset
-2. **Start Sorting**: Click "Start" to begin the visualization
-3. **Pause/Resume**: Use "Pause" to stop and resume the sorting process
-4. **Reset**: Click "Reset" to return to the original unsorted state
-5. **Watch**: Observe the color changes as elements are compared and sorted
+1. **Generate Array**: Click "Generate New Array" to create a random dataset  
+2. **Start Sorting**: Click "Start" to begin the visualization  
+3. **Pause/Resume**: Use "Pause" to stop and resume the sorting process  
+4. **Reset**: Click "Reset" to return to the original unsorted state  
+5. **Watch**: Observe the color changes as elements are compared and sorted  
 
-## 🚀 Getting Started
+## 🚀 Getting Started (Run on VS Code)
 
 ### Prerequisites
 
 - Node.js (v14 or higher)
 - npm or yarn
+- Visual Studio Code installed
 
-### Installation
+### Installation Steps
 
-1. Clone the repository:
-```bash
-git clone https://github.com/hananahmad31/sorting-visualizer.git
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/hananahmad31/sorting-visualizer.git
+   ```
 
-2. Navigate to the project directory:
-```bash
-cd Sorting-Vizualizer
-```
+2. **Open in VS Code:**
+   ```bash
+   cd sorting-visualizer
+   code .
+   ```
 
-3. Install dependencies:
-```bash
-npm install
-```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-4. Start the development server:
-```bash
-npm run dev
-```
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
+5. **Open in browser:**  
+   Go to the local URL shown in your terminal (usually `http://localhost:5173/`)
 
 ### Build for Production
 
 ```bash
 npm run build
 ```
+
+---
 
 ## 📁 Project Structure
 
@@ -99,9 +106,9 @@ sorting-visualizer/
 
 ## 🎨 Color Legend
 
-- **Blue Bars**: Unsorted elements waiting to be processed
-- **Red Bars**: Elements currently being compared
-- **Green Bars**: Successfully sorted elements in their final position
+- **Blue Bars**: Unsorted elements waiting to be processed  
+- **Red Bars**: Elements currently being compared  
+- **Green Bars**: Successfully sorted elements in their final position  
 
 ## 🔧 Customization
 
@@ -110,7 +117,7 @@ You can customize various aspects of the visualizer:
 - **Array Size**: Modify the initial array size in the component
 - **Animation Speed**: Adjust the delay between comparisons
 - **Colors**: Update the color scheme in Tailwind classes
-- **Algorithms**: Add new sorting algorithms in the utils folder
+- **Algorithms**: Add new sorting algorithms in the `utils` folder
 
 ## 📈 Future Enhancements
 
@@ -126,11 +133,11 @@ You can customize various aspects of the visualizer:
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the project  
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)  
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)  
+4. Push to the branch (`git push origin feature/AmazingFeature`)  
+5. Open a Pull Request  
 
 ## 📝 License
 
@@ -138,15 +145,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Built as a learning project to understand sorting algorithms
-- Inspired by various algorithm visualization tools
-- Thanks to the React and Vite communities for excellent documentation
+- Built as a learning project to understand sorting algorithms  
+- Inspired by various algorithm visualization tools  
+- Thanks to the React and Vite communities for excellent documentation  
 
 ## 📧 Contact
 
-**Hanan Ahmad** - [GitHub Profile](https://github.com/hananahmad31)
-
-Project Link: [https://github.com/hananahmad31/sorting-visualizer.git](https://github.com/hananahmad31)
+**Hanan Ahmad** - [GitHub Profile](https://github.com/hananahmad31)  
+Project Link: [https://github.com/hananahmad31/sorting-visualizer.git](https://github.com/hananahmad31/sorting-visualizer.git)
 
 ---
 
