@@ -2,6 +2,10 @@
 
 An interactive web application that visualizes various sorting algorithms in real-time, built with React, Tailwind CSS, and Vite.
 
+## 🔗 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://sorting-visualizer-pink-six.vercel.app)
+
 ## 🚀 Features
 
 - **Interactive Visualization**: Watch sorting algorithms work in real-time with animated bar charts
